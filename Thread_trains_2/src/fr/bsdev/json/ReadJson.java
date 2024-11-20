@@ -26,10 +26,9 @@ public class ReadJson {
 		List<ObjectTrain> listTrain = new ArrayList<ObjectTrain>();
 		
 		FileReader reader;
-		//Path path = Paths.get(filename);
-		
+	
 		Path path = Paths.get("F:\\resources\\trains.json");
-		                      //F:\02-Programme_PQDI\03_MJ\job\Thread_trains_2\src\json\trains.json
+		     
 		String realPath =null;
 		File file = null;
 		System.out.println("path"+path);
